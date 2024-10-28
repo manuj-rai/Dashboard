@@ -1,0 +1,51 @@
+.sidebar {
+  width: 150px; 
+  background-color: rgb(0 0 0 / 80%); 
+  color: white; 
+  height: 100vh; 
+  padding: 10px; 
+  transition: width 0.3s;
+}
+
+.hidden {
+  width: 35px; 
+  overflow: hidden; /* Hide overflow */
+}
+
+
+.sidebar ul {
+  list-style: none; 
+  padding: 0; 
+}
+
+.sidebar li {
+  padding: 10px; 
+  cursor: pointer; 
+  display: flex; 
+  align-items: center; 
+}
+
+
+.sidebar li:hover {
+  background-color: #575757; 
+}
+
+.sidebar li.active {
+  background-color: #555; 
+  color: white;  
+}
+
+
+.material-icons {
+    font-size: 15px;
+}
+
+.sidebar li .menu-text {
+  margin-left: 10px; 
+  opacity: 1; 
+  transition: opacity 0.3s; 
+}
+
+.sidebar.hidden li .menu-text {
+  opacity: 0; 
+}

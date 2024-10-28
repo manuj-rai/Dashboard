@@ -1,0 +1,7 @@
+<app-navbar (sidebarToggle)="onSidebarToggle()"></app-navbar>
+<div class="dashboard-layout">
+  <app-sidebar [isSidebarVisible]="isSidebarVisible" ></app-sidebar>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

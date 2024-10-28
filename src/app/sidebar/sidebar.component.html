@@ -1,0 +1,41 @@
+<div class="sidebar" [ngClass]="{'hidden': !isSidebarVisible}">
+  <ul>
+    <li [ngClass]="{'active': activeMenu === 'Dashboard'}" (click)="setActiveMenu('Dashboard')">
+      <span class="material-icons">dashboard</span>
+      <span class="menu-text">Dashboard</span>
+    </li>
+    <li [ngClass]="{'active': activeMenu === 'Components'}" (click)="setActiveMenu('Components')">
+      <span class="material-icons">widgets</span>
+      <span class="menu-text">Components</span>
+    </li>
+    <li [ngClass]="{'active': activeMenu === 'Charts'}" (click)="setActiveMenu('Charts')">
+      <span class="material-icons">show_chart</span>
+      <span class="menu-text">Charts</span>
+    </li>
+    <li [ngClass]="{'active': activeMenu === 'Features'}" (click)="setActiveMenu('Features')">
+      <span class="material-icons">star</span>
+      <span class="menu-text">Features</span>
+    </li>
+    <li [ngClass]="{'active': activeMenu === 'Tables'}" (click)="setActiveMenu('Tables')">
+      <span class="material-icons">table_chart</span>
+      <span class="menu-text">Tables</span>
+    </li>
+    <li [ngClass]="{'active': activeMenu === 'Maps'}" (click)="setActiveMenu('Maps')">
+      <span class="material-icons">map</span>
+      <span class="menu-text">Maps</span>
+    </li>
+    <li [ngClass]="{'active': activeMenu === 'Pages'}" (click)="setActiveMenu('Pages')">
+      <span class="material-icons">description</span>
+      <span class="menu-text">Pages</span>
+    </li>
+    <li [ngClass]="{'active': activeMenu === 'Menu Level 1'}" (click)="setActiveMenu('Menu Level 1')">
+      <span class="material-icons">folder</span>
+      <span class="menu-text">Menu Level 1</span>
+    </li>
+  </ul>
+</div>
+
+
+
+
+
