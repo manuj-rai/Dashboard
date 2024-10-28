@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background: url(assets/IMG_0270.jpeg) no-repeat;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter:blur(20px);
+    background-size:cover;
+    background-position:center;
+}
+
+::-webkit-scrollbar {
+  width: 12px;               
+  background-color: #171d28;  
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #20293b;        
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(0 0 0/60%);     
+}
+
